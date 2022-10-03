@@ -1,0 +1,140 @@
+.body {
+    background: #171a21;
+}
+.header {
+    background-position: center top;
+    min-width: 940px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+ 
+}
+.header_nav {
+    background: #171a21;
+    position: relative;
+    width: 940px;
+    height: 104px;
+    margin: 0px auto;
+    z-index: 402;
+    top:-10px;
+
+}
+.logo {
+    float: left;
+    padding-top: 30px;
+    margin-right: 40px;
+
+}
+.logo1 {
+    width: 176px;
+    height: 44px;
+}
+.logo2 {
+    width: 176px;
+    height: 44px;
+}
+.header_nav2 {
+    position: absolute;
+    left: 200px;
+}
+.button1_nav2 {
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-decoration:none;
+}
+.button2_nav2 {
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button3_nav2 {
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.button4_nav2 {
+    display: block;
+    position: relative;
+    padding-top: 45px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    line-height: 16px;
+    float: left;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header_nav3 {
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 21px;
+    color: #b8b6b4;
+    font-size: 11px;
+    line-height: 16px;
+
+}
+.button1_nav3 {
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 9px;
+    background-position: 10px 5px;
+    background-image: url(https://store.cloudflare.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: #e5e4dc;
+    font-weight: normal;
+    position: relative;
+    height: 21px;
+    line-height: 24px;
+    margin-right: 3px;
+    background-color: #5c7e10;
+    display:inline-block;
+}
+.button2_nav3 {
+    color: #b8b6b4;
+    padding: 0 4px;
+    text-decoration: none;
+  
+}
+.button3_nav3 {
+    color: #b8b6b4;
+    display: inline-block;
+    padding-left: 4px;
+    line-height: 25px;
+}
+
+

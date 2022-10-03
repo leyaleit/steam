@@ -1,0 +1,199 @@
+
+
+.page_content {
+    background: radial-gradient(rgba(24, 26, 33, 0) 0%, #181A21 100%) fixed no-repeat, url(https://store.akamai.steamstatic.com/public/shared/images/joinsteam/new_login_bg_strong_mask.jpg) center top no-repeat;
+    padding: 0px 8px;
+    width: 100%;
+}
+.center {
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+.center_content {
+    position: relative;
+    width: 100%;
+
+    left: 30%;
+}
+.login_title {
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200;
+    font-family: "Motiva Sans", Sans-serif;
+    margin: 8px 16px;
+    margin-bottom: 32px;
+}
+
+.login_dialog {
+    background-color: #181a21;
+    border-radius: 4px;
+    padding: 24px 32px;
+    flex: 1;
+    max-width: 636px;
+
+}
+.login_dialog2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.left_navigation {
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr;
+    width: 412px;
+}
+
+.nav1_text {
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    margin-bottom: 2px;
+}
+.nav1_field {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;
+    width: 390px;
+}
+.nav2_text {
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+.nav2_field {
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;
+    width: 390px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.check_text {
+    color: #afafaf;
+    font-size: 12px;
+    user-select: none;
+    padding-left: 6px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.signin_btn {
+    width: 270px;
+    position: relative;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    
+}
+.link {
+    text-align: center;
+    color: #afafaf;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.right_navigation {
+    flex: 1;
+    display: grid;
+    margin-left: 24px;
+}
+.beta {
+    color: #1999ff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 6px 0px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    height: 16px;
+}
+.QR_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+}
+.QR_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #afafaf;
+    margin: 8px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+.right_btn {
+    background-color: rgba(255,255,255,.1);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    width: 98px;
+    height: 36px;
+    font-family: "Motiva Sans", Sans-serif;
+    text-decoration:none;
+}
+.right_text {
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #afafaf;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
